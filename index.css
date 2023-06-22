@@ -1,0 +1,268 @@
+body{
+	font-family: 'Poppins';
+	background-color: #252b43;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 1.1rem;
+}
+/*==============================================
+				 ACTION GOUPEE	
+===================         ====================*/
+li{
+	list-style-type: none;
+	margin: 1px 8px;
+}
+a{
+	text-decoration: none;
+}
+/*----------text-transform: capitalize;----------*/
+header #parent-header-title #header-title h1, 
+header #parent-header-title #header-title #btn button, 
+#about #about-us #confiance h4,
+#team #our-team .team-member .team-member-fonction{
+	text-transform: capitalize;
+}
+/*------display: flex; flex-direction: row;------*/
+header #parent-header-title #header-title #btn, 
+header #stats-clients .stat-client, 
+#service #nos-services, 
+#about #about-us,
+#team #our-team,
+#contact #contact-entete{
+	display: flex; 
+	flex-direction: row
+}
+/*------display: flex; flex-direction: column;------*/
+#service #nos-services .service{
+	display: flex; 
+	flex-direction: column;
+}
+/*---------------------SECTION TITLE----------------*/
+#about-title, #testimonial-title, #team-title{
+	text-align: center;
+	width: 30%;
+	margin: auto;
+}
+#about-title h3, #testimonial-title h3, #team-title h3{
+	font-size: 1.8rem;
+	margin-bottom: 0;
+}
+
+#about-title p, #testimonial-title p, #team-title p{
+	opacity: 0.85;
+}
+
+/*==============================================*/
+
+/*==============================================
+					  HEADER	
+======================      ====================*/
+header{
+	background-image: linear-gradient(rgba(51,51,51,0.4), rgba(51,51,51,0.4)), url('img/header-background.jpeg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	padding: 10px;
+	position: relative;
+	margin-bottom: 150px;
+}
+header nav #entete{
+	margin: 0 5px 0 100px;
+	display: flex;
+	justify-content: space-between;
+}
+header nav #nav-list{
+	display: flex;
+	flex-direction: row;
+}
+header nav #nav-list #search{
+	margin-left: 18px;
+}
+header nav #nav-list #hamburger{
+	margin-left: 35px;
+}
+header nav #nav-list a{
+	color: #fff;
+}
+
+header #parent-header-title{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header #parent-header-title #header-title{
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+header #parent-header-title #header-title h1{
+	font-size: 2.4rem;
+}
+header #parent-header-title #header-title #btn{    /*display: flex; flex-direction: row;*/
+	justify-content: space-aroud;
+}
+header #parent-header-title #header-title #btn button, #service #nos-services .service button{
+	background-color: transparent;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 20px;
+	margin: 5px 10px;
+	color: #fff;
+}
+header #parent-header-title #header-title #btn #btn1{
+	background-color: #ff7c48;
+}
+header #parent-header-title #header-title #btn #btn2{
+	background-color: transparent;
+	border: none;
+	margin: 5px 10px;
+	border: 1px solid #ff7c48;
+}
+
+header #stats-clients{
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	bottom: -50px;
+	background-color: #fff;
+	color: #252b43;
+	padding: 10px 40px;
+	margin: auto;
+}
+header #stats-clients .stat-client{   /*display: flex; flex-direction: row;*/
+/*	justify-content: space-between;*/
+	
+}
+/*================================================*/
+
+/*==============================================
+					 SERVICES	
+======================      ====================*/
+#service{
+
+}
+#service #nos-services{   /*display: flex; flex-direction: row;*/
+	width: 85%;
+	margin: auto;;
+	justify-content: space-between;
+}
+#service #nos-services .service{
+	width: 20%;
+	background-color: #fff;
+	color: #252b43;
+	padding: 20px 10px;
+}
+#service #nos-services .service button{
+	width: 60%;
+	margin: auto;
+	color: #0d5c63;
+	border: 1px solid #0d5c63;
+}
+#service #nos-services .service h2{
+	margin: 10px 0;
+}
+/*================================================*/
+
+/*==============================================
+					   ABOUT	
+======================      ====================*/
+#about{
+	margin-top: 100px;
+}
+#about #about-title{
+	margin-bottom: 50px;
+}
+#about #about-us{          /*display: flex; flex-direction: row;*/
+	justify-content: space-between;
+	padding: 0 30px 0 70px;
+}
+#about #about-us #video{
+	width: 60%;
+}
+#about #about-us #video video{
+	width: 80%;
+}
+#about #about-us #confiance{
+	width: 40%;
+}
+#about #about-us #confiance h4{
+	font-size: 1.7rem;
+}
+#about #about-us #confiance .p1{
+	font-size: 1rem;
+	opacity: 0.8;
+}
+#about #about-us #confiance p .span{
+	font-size: 1rem;
+	opacity: 0.8;
+}
+/*================================================*/
+
+/*==============================================
+					TESTIMONIAL	
+======================      ====================*/
+#testimonial{
+	margin-top: 100px;	
+}
+
+/*================================================*/
+
+/*==============================================
+					   TEAM	
+======================      ====================*/
+#team{
+	margin-top: 100px;	
+}
+#team #our-team{      /*display: flex; flex-direction: row;*/
+	width: 70%;
+	margin: auto;
+	justify-content: space-between;
+}
+#team #our-team .team-member{
+	width: 20%;
+	background-color: #fff;
+	color: #252b43;
+	padding: 20px 10px;
+	text-align: center;
+}
+#team #our-team .team-member img{
+	width: 50%;
+	border-radius: 50%;
+}
+#team #our-team .team-member .team-member-fonction{
+	color: #f67e4f;
+}
+#team #our-team .team-member .team-member-bottom{
+	opacity: 0.85;
+}
+/*================================================*/
+
+/*==============================================
+					  CONTACT
+======================      ====================*/
+#contact{
+	margin-top: 100px;	
+}
+#contact #contact-entete{
+	width: 70%;
+	margin: auto;
+}
+#contact #contact-entete #contact-title{
+	
+}
+
+/*================================================*/
+
+/*==============================================
+					  FOOTER
+======================      ====================*/
+FOOETR
+/*================================================*/
